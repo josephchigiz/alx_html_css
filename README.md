@@ -11,7 +11,6 @@
     1. <a href="./html_basic/index.html">Main Page</a>
     2. <a href="./html_basic/tweets.html">Tweets Page</a>
 <br>
-<br>
 - You can preview the <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_html_css/blob/master/html_basic/index.html"><em>rendered website</em></a> in it's current state, so that you can follow the development in real-time.
 - As I go along, I'll spice up the pages with CSS and JS.
 - ***Happy Coding!🫡***
