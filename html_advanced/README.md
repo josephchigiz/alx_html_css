@@ -10,5 +10,6 @@
   - <a href="https://www.fontsquirrel.com/fonts/source-sans-pro" title="Download Font" target="_blank">Source Sans Pro </a> from <em>San Serif</em> fonts,
   - <a href="https://www.fontsquirrel.com/fonts/Spin-Cycle-OT" title="Download Font" target="_blank">Spin Cycle</a> from <em>Display Fonts</em>
 <br>
+- You can preview the <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_html_css/blob/master/html_advanced/index.html" title="Homepage" target="_blank"><em>rendered website</em></a> in it's current state, so that you can follow the development in real-time.
 <br>
 - **Happy Coding!** 🫡
