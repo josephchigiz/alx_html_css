@@ -11,4 +11,4 @@
   - <a href="https://www.fontsquirrel.com/fonts/Spin-Cycle-OT" title="Download Font" target="_blank">Spin Cycle</a> from <em>Display Fonts</em>
 <br>
 <br>
-- **Happy Coding!**🫡
+- **Happy Coding!** 🫡
