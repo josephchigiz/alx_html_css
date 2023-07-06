@@ -4,6 +4,7 @@
 - Now we develop our site, referencing a <a href="https://www.figma.com/file/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?type=design&mode=design" title="Fig Ref" target="_blank">figma mockup</a> of the final result.
 - We focus on all the html elements first and after that we can add style by creating and linking to a stylesheet.
 - While working with the figma file, make sure to duplicate it so that you can access all the file's details and use them freely.
+<center><img src="../images/duplicate-screenshot.png" width="400px" height="200" alt="How to Duplicate"></center>
 - This also makes sure our original file remains unchanged hence it retains its reference integrity, while you are able to experiment with the duplicate.
 - The fonts to be used are;
   - <a href="https://www.fontsquirrel.com/fonts/source-sans-pro" title="Download Font" target="_blank">Source Sans Pro </a> from ***San Serif***  fonts,
