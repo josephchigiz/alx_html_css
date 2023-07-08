@@ -1,4 +1,4 @@
-# CSS BASICS
+# CSS BASICS !
 - Web pages are meant to display information in form of images, text, tables etc. 
 - Although all this can be achieved using only HTML code, the web experience would be boring and plain.
 <img src="boring-website.png" title="Really Boring Website"><br><br>
