@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 100%;
+  box-sizing: border-box;
+  /* width: 100%vw; */
+  margin: 0 auto;
+}
+
+.the-beginning {
+  background-image: url("images/section-1/background.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+/*** Header ***/
+header{
+  /* margin-bottom: 336px; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-top: 28px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-right: 41px;
+}
+
+/*** Main ***/
+main {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 0; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main-section div 
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;  
+  line-height: 40px;
+  margin-top: 313px;
+}
+.sub-heading {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.first-button {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 65px;
+  background-color: rgba(255, 101, 101, 1);
+  border: none;
+  height: 44px;
+  width: 162px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 115px;
+}
+
+/***Section 2 ***/
+.section-2 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 97px;
+}
+.what-we-do h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.what-we-do p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 110px;
+}
+.features div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.features h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.features p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.features .feature-images {
+  cursor: pointer;
+}
