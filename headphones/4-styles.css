@@ -44,6 +44,7 @@ header{
   color: white;
   text-decoration: none;
   margin-right: 41px;
+  transition: color 200ms;
 }
 
 /*** Main ***/
@@ -57,7 +58,6 @@ main {
   max-width: 1000px;
   margin: 0 auto;
 }
-.main-section div 
 
 .main-heading {
   font-size: 32px;
@@ -290,6 +290,6 @@ footer p {
   font-weight: 200;
 }
 
-.footer a:hover {
-  opacity: 0.9;
+a:hover {
+  color: #FF6565;
 }
