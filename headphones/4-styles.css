@@ -336,6 +336,8 @@ a:hover {
   color: #FF6565;
 }
 
+
+/* Tablet Layout */
 @media screen and (max-width: 768px) {
   .head-container {
     display: flex;
@@ -375,6 +377,7 @@ a:hover {
   }
 }
 
+/* Phone Layout */
 @media screen and (max-width: 480px) {
   /* .head-container {
     display: block;
