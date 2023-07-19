@@ -12,7 +12,6 @@ body {
   box-sizing: border-box;
   /* width: 100%vw; */
   margin: 0 auto;
-  padding: 0;
 }
 
 .the-beginning {
@@ -37,6 +36,41 @@ header{
   align-items: center;
   margin: 0;
   padding-top: 28px;
+  padding-right: 15px;
+  /* padding-left: 15PX; */
+}
+/* .logo {
+
+} */
+.menu-icon {
+  display: none;
+  border: none;
+  background: url(images/logo-section/menu.png) center center no-repeat;
+  cursor: pointer;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-list  {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-link {
@@ -96,25 +130,45 @@ main {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
+  max-width: 650px;
   margin-top: 0;
   margin-bottom: 115px;
 }
 
 @media screen and (max-width: 768px) {
   .head-container {
-    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding-left: 15px; */
     padding-right: 15px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .head-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* .head-container {
+    display: block;
+  } */
+  .menu-icon {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .menu:checked ~ .menu-list {
+    display: block;
+    max-height: 50%;
+  }
+
+  .nav-links {
+    display: none;
   }
   .main-paragraph {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu-icon {
+    margin-right: 20px;
   }
 }

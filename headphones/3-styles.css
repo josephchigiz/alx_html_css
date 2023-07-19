@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Source Sans 3', sans-serif;
@@ -33,6 +36,38 @@ header{
   align-items: center;
   margin: 0;
   padding-top: 28px;
+  padding-right: 15px;
+}
+
+.menu-icon {
+  display: none;
+  border: none;
+  background: url(images/logo-section/menu.png) center center no-repeat;
+  cursor: pointer;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-list  {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-link {
@@ -40,6 +75,7 @@ header{
   color: white;
   text-decoration: none;
   margin-right: 41px;
+  transition: color 200ms;
 }
 
 /*** Main ***/
@@ -53,7 +89,6 @@ main {
   max-width: 1000px;
   margin: 0 auto;
 }
-.main-section div 
 
 .main-heading {
   font-size: 32px;
@@ -92,6 +127,7 @@ main {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
+  max-width: 650px;
   margin-top: 0;
   margin-bottom: 115px;
 }
@@ -120,6 +156,7 @@ main {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
+  max-width: 650px;
   margin-top: 0;
 }
 
@@ -154,7 +191,7 @@ main {
   background-image: url("images/section-3/background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center; Try to check this
+  background-position: center; /*Try to check this*/
   background-size: cover;
   margin: 0;
   padding-bottom: 79px;
@@ -198,6 +235,7 @@ main {
   margin-bottom: 0;
   line-height: 26px;
   letter-spacing: 0px;
+  max-width: 650px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -233,6 +271,10 @@ main {
   opacity: 0.9;
 }
 
+.fill-in:focus {
+  outline: none;
+}
+
 .contact-us-button {
   margin-top: 10px;
   margin-bottom: 130px;
@@ -249,4 +291,69 @@ main {
 }
 .contact-us-button:hover {
   opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .head-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding-left: 15px; */
+    padding-right: 15px;
+  }
+
+  .main-paragraph {
+    padding: 10px;
+  }
+  .what-we-do p{
+    padding: 10px;
+  }
+  .features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 110px;
+  }
+  .hexagons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .head-container {
+    display: block;
+  } */
+  .menu-icon {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .menu:checked ~ .menu-list {
+    display: block;
+    max-height: 50%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .main-paragraph {
+    padding: 10px;
+  }
+  .what-we-do p{
+    padding: 10px;
+  }
+}
+
+/* Fix for very small screen widths */
+@media screen and (max-width: 430px) {
+  .menu-icon {
+    margin-right: 20px;
+  }
+  
 }

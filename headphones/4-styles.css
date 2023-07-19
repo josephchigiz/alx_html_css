@@ -12,7 +12,6 @@ body {
   box-sizing: border-box;
   /* width: 100%vw; */
   margin: 0 auto;
-  padding: 0;
 }
 
 .the-beginning {
@@ -37,6 +36,38 @@ header{
   align-items: center;
   margin: 0;
   padding-top: 28px;
+  padding-right: 15px;
+}
+
+.menu-icon {
+  display: none;
+  border: none;
+  background: url(images/logo-section/menu.png) center center no-repeat;
+  cursor: pointer;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-list  {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  margin-right: 15px;
+  padding: 20px;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-link {
@@ -96,6 +127,7 @@ main {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
+  max-width: 650px;
   margin-top: 0;
   margin-bottom: 115px;
 }
@@ -124,6 +156,7 @@ main {
   font-size: 16px;
   font-weight: normal;
   line-height: 26px;
+  max-width: 650px;
   margin-top: 0;
 }
 
@@ -202,6 +235,7 @@ main {
   margin-bottom: 0;
   line-height: 26px;
   letter-spacing: 0px;
+  max-width: 650px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -235,6 +269,10 @@ main {
   font-weight: 550;
   color: black;
   opacity: 0.9;
+}
+
+.fill-in:focus {
+  outline: none;
 }
 
 .contact-us-button {
@@ -290,6 +328,90 @@ footer p {
   font-weight: 200;
 }
 
+.copyright a {
+  text-decoration: none;
+  color: white;
+}
 a:hover {
   color: #FF6565;
+}
+
+@media screen and (max-width: 768px) {
+  .head-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding-left: 15px; */
+    padding-right: 15px;
+  }
+
+  .main-paragraph {
+    padding: 10px;
+  }
+  .what-we-do p{
+    padding: 10px;
+  }
+  .features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 110px;
+  }
+  .hexagons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .footer-margins {
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .head-container {
+    display: block;
+  } */
+  .menu-icon {
+    display: block;
+    margin-right: 50px;
+  }
+
+  .menu:checked ~ .menu-list {
+    display: block;
+    max-height: 50%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .main-paragraph {
+    padding: 10px;
+  }
+  .what-we-do p{
+    padding: 10px;
+  }
+  .footer-margins {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 30px;
+    /* flex-wrap: wrap; */
+  }
+}
+
+/* Fix for very small screen widths */
+@media screen and (max-width: 430px) {
+  .menu-icon {
+    margin-right: 20px;
+  }
+  
 }

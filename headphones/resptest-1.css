@@ -168,11 +168,7 @@ main {
   }
 }
 
-@media screen and (max-width: 440px) {
-  .logo {
-    width: 300px;
-    padding-right: 20px;
-  }
+@media screen and (max-width: 400px) {
   .menu-icon {
     margin-right: 20px;
   }
