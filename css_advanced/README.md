@@ -12,6 +12,6 @@ I utilize -:
 
 CSS can be a lot sometimes, but what good thing isn't? So...
 
-*Happy Coding!* 😎
+*Happy Coding!*
 
 **The completed website is here:** <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_html_css/blob/master/css_advanced/index.html" title= "Preview The Webpage" target="_blank">Preview</a>.
